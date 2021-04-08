@@ -31,5 +31,20 @@ public class FindResult {
 		
 	}
 	
+	public static boolean isOddNum(int n)
+	{
+		boolean isFlag = false;
+		if(n%2==0)
+		{
+			isFlag=true;
+		}
+		else
+		{
+			isFlag=false;
+		}
+		return isFlag;
+		
+	}
+	
 	
 }
